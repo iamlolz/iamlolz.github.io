@@ -1,0 +1,73 @@
+/***************************
+
+        CODED.CC CSS
+
+***************************/
+
+
+/* Base Styling
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f9f9f9;
+    font-size: 1.5em;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Text Styling
+-------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+
+
+/* Sections
+-------------------------------------------------- */
+
+/* Navbar */
+
+#navbar {
+    background-color: #f0ad4e;
+    border-bottom: 1px solid #eea236;
+    color: #f9f9f9;
+}
+
+a.navbar_orange {
+    color: #f9f9f9!important    ;
+}
+
+a.navbar_orange:hover, a.navbar_orange:active, a.navbar_orange:focus {
+    text-decoration: underline;
+}
+
+/* Body */
+
+#main_container {
+    text-align: center;
+}
+
+body > .container {
+    padding: 60px 15px 0;
+}
+
+/* Footer */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#footer > .container {
+    padding: 20px 15px 0 15px;
+}
